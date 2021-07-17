@@ -16,3 +16,10 @@ const myCar = carMarkers.pop();
 carMarkers.map((car:string):string=>{
     return car;
 })
+
+
+//multiple type in array
+
+const importantDates:(Date | string)[]= [new Date()];
+importantDates.push('2021-7-17')
+importantDates.push('2020-7-17')
